@@ -1,0 +1,11 @@
+
+RewriteOptions inherit
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+
+RewriteCond %{SERVER_PORT} 80 
+
+ErrorDocument 404 http://localhost/pruebaTecnica/

@@ -1,0 +1,79 @@
+body {
+    background-image: url(../img/fondo.jpg);
+}
+
+#myProgress {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background: #eaf1ab;
+    border-radius: 20px;
+}
+
+#myBar {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 20px;
+}
+
+#label {
+    text-align: center;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: "Homer Simpson UI";
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+
+.container-form {
+    padding: 20px 60px 20px 60px;
+    margin-top: 60px;
+    z-index: 1000;
+    background-color: white;
+    border: 5px solid #00e2b0;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {}
+
+label {
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+    display: block;
+}
+
+.input {
+    display: block;
+    border: 3px solid #00e2b0;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.sp {
+    color: red;
+}
+
+input[type="button"] {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    margin-top: 1rem;
+    background-color: #00e2b0;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.alert {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    z-index: 1000;
+}
